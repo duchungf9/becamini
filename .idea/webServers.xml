@@ -3,7 +3,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="595ba657-0a93-47a6-b8a9-f39a92a1824f" name="ok" url="http://139.59.250.144">
-        <fileTransfer host="139.59.250.144" port="22" privateKey="C:\Users\duchu\.ssh\hung.ppk" rootFolder="/home/nginx/demo" accessType="SFTP" keyPair="true">
+        <fileTransfer host="139.59.250.144" port="22" privateKey="C:\Users\PC\.ssh\hung.ppk" rootFolder="/home/nginx/demo" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
