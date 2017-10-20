@@ -155,7 +155,9 @@ function flatsome_ux_banner( $atts, $content = null ){
               if($text_bg && !$padding) $padding = '30px 30px 30px 30px';
               $depth = '';
               if($text_bg) $depth = '1';
-              echo flatsome_contentfix('[text_box text_align="'.$text_align.'" parallax="'.$parallax_text.'" animate="'.$animation.'" depth="'.$depth.'" padding="'.$padding.'" bg="'.$text_bg.'" text_color="'.$text_color.'" width="'.intval($text_width).'" width__sm="60%" position_y="'.$y.'" position_x="'.$x.'"]'.$content.'[/text_box]');
+				var_dump($content);
+	
+				echo flatsome_contentfix('[text_box text_align="'.$text_align.'" parallax="'.$parallax_text.'" animate="'.$animation.'" depth="'.$depth.'" padding="'.$padding.'" bg="'.$text_bg.'" text_color="'.$text_color.'" width="'.intval($text_width).'" width__sm="60%" position_y="'.$y.'" position_x="'.$x.'"]'.$content.'[/text_box]');
             } ?>
         </div><!-- .banner-layers -->
       </div><!-- .banner-inner -->
