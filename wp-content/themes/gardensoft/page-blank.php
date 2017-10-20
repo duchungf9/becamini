@@ -272,4 +272,3 @@ get_header(); ?>
 <?php do_action('flatsome_after_page'); ?>
 
 <?php get_footer(); ?>
-
