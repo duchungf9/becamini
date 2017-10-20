@@ -272,20 +272,23 @@ get_header(); ?>
 <?php do_action('flatsome_after_page'); ?>
 
 <?php get_footer(); ?>
-<!--<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>-->
-<!--<script>-->
-<!--    $(".faq-q").click( function () {-->
-<!--        var container = $(this).parents(".faq-c");-->
-<!--        var answer = container.find(".faq-a");-->
-<!--        var trigger = container.find(".faq-t");-->
-<!---->
-<!--        answer.slideToggle(200);-->
-<!---->
-<!--        if (trigger.hasClass("faq-o")) {-->
-<!--            trigger.removeClass("faq-o");-->
-<!--        }-->
-<!--        else {-->
-<!--            trigger.addClass("faq-o");-->
-<!--        }-->
-<!--    });-->
-<!--</script>-->
+
+<script>
+    setTimeout(function(){
+        $(".faq-q").click( function () {
+            var container = $(this).parents(".faq-c");
+            var answer = container.find(".faq-a");
+            var trigger = container.find(".faq-t");
+
+            answer.slideToggle(200);
+
+            if (trigger.hasClass("faq-o")) {
+                trigger.removeClass("faq-o");
+            }
+            else {
+                trigger.addClass("faq-o");
+            }
+        });
+    },10000);
+
+</script>
