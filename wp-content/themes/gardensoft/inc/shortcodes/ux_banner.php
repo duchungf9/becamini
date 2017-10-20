@@ -1,7 +1,6 @@
 <?php
 // [ux_banner]
 function flatsome_ux_banner( $atts, $content = null ){
-    var_dump($atts);
   extract( shortcode_atts( array(
     '_id' => 'banner-'.rand(),
 
