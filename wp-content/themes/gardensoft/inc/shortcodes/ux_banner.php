@@ -139,7 +139,6 @@ function flatsome_ux_banner( $atts, $content = null ){
             <?php
             // Get Layers
             if (has_shortcode( $content, 'text_box' ) || has_shortcode( $content, 'ux_hotspot' ) || has_shortcode( $content, 'ux_image' )) {
-                var_dump($content);
                 echo flatsome_contentfix($content);
             } else {
               $x = '50'; $y = '50';
@@ -155,8 +154,6 @@ function flatsome_ux_banner( $atts, $content = null ){
               if($text_bg && !$padding) $padding = '30px 30px 30px 30px';
               $depth = '';
               if($text_bg) $depth = '1';
-				var_dump($content);
-	
 				echo flatsome_contentfix('[text_box text_align="'.$text_align.'" parallax="'.$parallax_text.'" animate="'.$animation.'" depth="'.$depth.'" padding="'.$padding.'" bg="'.$text_bg.'" text_color="'.$text_color.'" width="'.intval($text_width).'" width__sm="60%" position_y="'.$y.'" position_x="'.$x.'"]'.$content.'[/text_box]');
             } ?>
         </div><!-- .banner-layers -->
