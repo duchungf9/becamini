@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d8403c09-ffcb-4517-976f-bec87624f4f7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/gardensoft/page-blank.php" afterPath="$PROJECT_DIR$/wp-content/themes/gardensoft/page-blank.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/gardensoft/footer.php" afterPath="$PROJECT_DIR$/wp-content/themes/gardensoft/footer.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,21 +15,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="init.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/gardensoft/inc/init.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="57" column="1" lean-forward="false" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/gardensoft/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="6" />
+            <state relative-caret-position="399">
+              <caret line="23" column="21" lean-forward="false" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -73,13 +63,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page-blank.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="page-blank.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/gardensoft/page-blank.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="274" column="0" lean-forward="true" selection-start-line="274" selection-start-column="0" selection-end-line="274" selection-end-column="0" />
+            <state relative-caret-position="519">
+              <caret line="273" column="11" lean-forward="false" selection-start-line="273" selection-start-column="11" selection-end-line="273" selection-end-column="11" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="general-template.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-includes/general-template.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="87" column="25" lean-forward="true" selection-start-line="87" selection-start-column="25" selection-end-line="87" selection-end-column="25" />
+              <folding>
+                <marker date="1508383728187" expanded="true" signature="29372:29385" ph="..." />
+                <marker date="1508383728187" expanded="true" signature="56013:56195" ph="SELECT YEAR(... " />
+                <marker date="1508383728187" expanded="true" signature="57087:57222" ph="SELECT YEAR(... " />
+                <marker date="1508383728187" expanded="true" signature="57987:58231" ph="SELECT YEAR(... " />
+                <marker date="1508383728187" expanded="true" signature="59202:59440" ph="SELECT DISTI... " />
+                <marker date="1508383728187" expanded="true" signature="60844:60902" ph="SELECT * FRO... ${$wpdb-&gt;posts}" />
+                <marker date="1508383728187" expanded="true" signature="63207:63302" ph="SELECT 1 as ${$wpdb-&gt;posts}" />
+                <marker date="1508383728187" expanded="true" signature="64540:64754" ph="SELECT MONTH... " />
+                <marker date="1508383728187" expanded="true" signature="64783:65014" ph="SELECT MONTH... " />
+                <marker date="1508383728187" expanded="true" signature="65190:65331" ph="..." />
+                <marker date="1508383728187" expanded="true" signature="65325:65331" ph="..." />
+                <marker date="1508383728187" expanded="true" signature="65776:65782" ph="..." />
+                <marker date="1508383728187" expanded="true" signature="66585:66591" ph="..." />
+                <marker date="1508383728187" expanded="true" signature="66684:66919" ph="SELECT DISTI... ${$wpdb-&gt;posts}" />
               </folding>
             </state>
           </provider>
@@ -185,6 +200,7 @@
         <option value="$PROJECT_DIR$/wp-includes/script-loader.php" />
         <option value="$PROJECT_DIR$/wp-includes/js/jquery/hung.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/gardensoft/page-blank.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/gardensoft/footer.php" />
       </list>
     </option>
   </component>
@@ -582,11 +598,25 @@
       <option name="project" value="LOCAL" />
       <updated>1508464151243</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="56">
+      <created>1508464217934</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1508464217934</updated>
+    </task>
+    <task id="LOCAL-00006" summary="56">
+      <created>1508464430054</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1508464430054</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11686000" />
+    <option name="totallyTimeSpent" value="12127000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1002,14 +1032,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/gardensoft/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-includes/js/jquery/jquery.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
@@ -1036,11 +1058,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/gardensoft/page-blank.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="274" column="0" lean-forward="true" selection-start-line="274" selection-start-column="0" selection-end-line="274" selection-end-column="0" />
+        <state relative-caret-position="519">
+          <caret line="273" column="11" lean-forward="false" selection-start-line="273" selection-start-column="11" selection-end-line="273" selection-end-column="11" />
           <folding>
             <element signature="n#div#0;n#div#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/general-template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="87" column="25" lean-forward="true" selection-start-line="87" selection-start-column="25" selection-end-line="87" selection-end-column="25" />
+          <folding>
+            <marker date="1508383728187" expanded="true" signature="29372:29385" ph="..." />
+            <marker date="1508383728187" expanded="true" signature="56013:56195" ph="SELECT YEAR(... " />
+            <marker date="1508383728187" expanded="true" signature="57087:57222" ph="SELECT YEAR(... " />
+            <marker date="1508383728187" expanded="true" signature="57987:58231" ph="SELECT YEAR(... " />
+            <marker date="1508383728187" expanded="true" signature="59202:59440" ph="SELECT DISTI... " />
+            <marker date="1508383728187" expanded="true" signature="60844:60902" ph="SELECT * FRO... ${$wpdb-&gt;posts}" />
+            <marker date="1508383728187" expanded="true" signature="63207:63302" ph="SELECT 1 as ${$wpdb-&gt;posts}" />
+            <marker date="1508383728187" expanded="true" signature="64540:64754" ph="SELECT MONTH... " />
+            <marker date="1508383728187" expanded="true" signature="64783:65014" ph="SELECT MONTH... " />
+            <marker date="1508383728187" expanded="true" signature="65190:65331" ph="..." />
+            <marker date="1508383728187" expanded="true" signature="65325:65331" ph="..." />
+            <marker date="1508383728187" expanded="true" signature="65776:65782" ph="..." />
+            <marker date="1508383728187" expanded="true" signature="66585:66591" ph="..." />
+            <marker date="1508383728187" expanded="true" signature="66684:66919" ph="SELECT DISTI... ${$wpdb-&gt;posts}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/gardensoft/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="23" column="21" lean-forward="false" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
