@@ -1,6 +1,7 @@
 <?php
 // [ux_banner]
 function flatsome_ux_banner( $atts, $content = null ){
+    var_dump($atts);
   extract( shortcode_atts( array(
     '_id' => 'banner-'.rand(),
 
@@ -133,7 +134,7 @@ function flatsome_ux_banner( $atts, $content = null ){
             <?php require( __DIR__ . '/commons/border.php' ) ;?>
             <?php if($effect) echo '<div class="effect-'.$effect.' bg-effect fill no-click"></div>'; ?>
             <div>
-                <p>des........</p>
+            
             </div>
         </div><!-- bg-layers -->
         <div class="banner-layers <?php if($container_width !== 'full-width') echo 'container'; ?>">
