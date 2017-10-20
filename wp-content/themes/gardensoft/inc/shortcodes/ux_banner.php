@@ -134,7 +134,7 @@ function flatsome_ux_banner( $atts, $content = null ){
             <?php require( __DIR__ . '/commons/border.php' ) ;?>
             <?php if($effect) echo '<div class="effect-'.$effect.' bg-effect fill no-click"></div>'; ?>
         </div><!-- bg-layers -->
-        <div class="banner-layers <?php if($container_width !== 'full-width') echo 'container'; ?>">
+        <div class="banner-layers <?php if($container_width !== 'full-width') echo 'container hung'; ?>">
             <?php echo $start_link; ?><div class="fill banner-link"></div><?php echo $end_link; ?>
             <?php
             // Get Layers
