@@ -1,7 +1,6 @@
 <?php
 // [ux_banner]
 function flatsome_ux_banner( $atts, $content = null ){
-
   extract( shortcode_atts( array(
     '_id' => 'banner-'.rand(),
 
@@ -133,6 +132,9 @@ function flatsome_ux_banner( $atts, $content = null ){
             <?php if($bg_overlay) echo '<div class="overlay"></div>' ?>
             <?php require( __DIR__ . '/commons/border.php' ) ;?>
             <?php if($effect) echo '<div class="effect-'.$effect.' bg-effect fill no-click"></div>'; ?>
+            <div>
+                <p>des........</p>
+            </div>
         </div><!-- bg-layers -->
         <div class="banner-layers <?php if($container_width !== 'full-width') echo 'container'; ?>">
             <?php echo $start_link; ?><div class="fill banner-link"></div><?php echo $end_link; ?>
