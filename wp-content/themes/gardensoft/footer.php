@@ -19,10 +19,5 @@ global $flatsome_opt;
 </div><!-- #wrapper -->
 
 <?php wp_footer(); ?>
-<script>
-    document.getElementsByClassName('faq-c').addEventListener('click', function () {
-       alert('x');
-    });
-</script>
 </body>
 </html>
